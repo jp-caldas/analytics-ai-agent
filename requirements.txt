@@ -1,0 +1,7 @@
+langchain
+langchain-openai
+langgraph
+fastapi
+uvicorn
+google-cloud-bigquery
+python-dotenv

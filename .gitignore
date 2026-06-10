@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+pip-wheel-metadata/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+
+# Sensitive credentials
+.env
+gcp-key.json
+
+# Local development files
+test_graph.py
+contexto.md

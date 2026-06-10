@@ -1,0 +1,9 @@
+.env
+gcp-key.json
+__pycache__/
+*.pyc
+.git
+.gitignore
+README.md
+contexto.md
+test_graph.py
