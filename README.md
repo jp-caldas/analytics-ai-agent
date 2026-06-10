@@ -82,6 +82,7 @@ analytics-ai-agent/
 ├── .env.example         # Environment variables template
 ├── .gitignore
 ├── Dockerfile           # Container image for Cloud Run
+├── n8n-workflow.json    # n8n workflow export (chat + LLM integration)
 ├── README.md
 └── requirements.txt
 ```
@@ -160,7 +161,7 @@ The workflow connects a chat trigger to the Cloud Run endpoint and formats respo
 3. **Basic LLM Chain** — Humanizes the response using GPT-4o-mini
 4. **Respond to Webhook** — Sends the answer back to the user
 
-Import the workflow JSON from the `n8n-workflow` export to replicate the setup.
+Import the workflow by uploading `n8n-workflow.json` into your n8n instance (Workflows → Add Workflow → Import from File).
 
 ## API Reference
 
